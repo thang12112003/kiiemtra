@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>BNGW</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script language="javascript" src="js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div id="wrapper">
+        <div id = "menu_ngang">
+            <div id="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+            <div id="nav">
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+
+                <div id = "info">
+                    <h3>Contact Info</h3>
+                    <p>To give beginning divide, cattle. Give moving won't, there the abundantly she'd she'd brought air upon. Light hath subdue. Life days creature upon first heaven gatherring dry.</p>
+                    <p>
+                        <b>Address:</b>
+                        <span class="text1">10011 Santa Monica</span>
+                    </p>
+                    <p>
+                        <b>Phone:</b>
+                        <span class="text1">10011 Santa Monica</span>
+                    </p>
+                    <p>
+                        <b>Email:</b>
+                        <span class="text1">info@example.com</span>
+                    </p>
+                    <p>
+                        <b>Fax:</b>
+                        <span class="text1">+44 987 065 909</span>
+                    </p>
+                </div>
+                <div id = "login_box">
+                    <form name="f1" id="f1" action="" method="post">
+                        <div class="input_box" style="overflow:auto">
+                            <div id="input1">
+                                <!-- onBlur là sự kiện khi rời focus (nhấn ra ngoài) khỏi input-->
+                                <input type = "text" placeholder = "Your Name" id="fullname" onBlur="Check();">
+                                <div id="errorName" class="error"></div>
+                            </div>
+                            
+                            <div id="input2">
+                                <input type = "text" placeholder = "Your Email" id="email" onBlur="Check();">
+                                <div id="errorMail" class="error"></div>
+                            </div>
+                        </div>
+                        <div id="input3" class="input_box" >
+                            <input type = "text" placeholder = "Your Title" id="title" onBlur="Check();">
+                            <div id="errorTitle" class="error"></div>
+                        </div>
+                        
+                        <div id = "input4"  class="input_box">
+                            <textarea rows="5" cols="50" placeholder="Your Comment" id="area" onBlur="Check();"></textarea>
+                        </div>
+                        <div id="errorArea" class="error"></div>
+                        <div id="button1" style="float: left">
+                            <button type="submit" onClick="return Check();" id = "bt1" >SEND MESSAGE
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div id="map">
+                    <img src="images/map.png">
+                </div>
+
+        </div>
+     </div>
+    </body>
+</html>
