@@ -1,0 +1,257 @@
+/* dat bien trong css*/
+/* :root {
+    --he-color:red 
+}
+
+h1{
+    color: var(--he-color);
+} */
+
+/* #box {
+    width: 200px;
+    height: 150px;
+    color: violet;
+    background-color: green;
+    padding: 30px;
+    border: 10px dashed black;
+    box-sizing: border-box;
+    background-clip:padding-box;
+
+} */
+
+/* #anhhotgirl{
+    width: 100%;
+    height: 100vh;
+     background-image: linear-gradient(0,green, red); 
+    background-image: linear-gradient(0,rgba(250,225,0,0.5),rgba(100,200,0,0.5)),
+    url(https://genk.mediacdn.vn/2020/1/7/photo-1-1578368300431366420427.jpg);
+    background-size: 500px;
+    background-repeat: no-repeat;/*repeat x chieu ngang- repeat y chieu doc
+} */
+
+/* #anhhotgirl{
+    background-image: url(https://media.istockphoto.com/photos/black-and-white-doggy-tile-pattern-repeat-background-picture-id490428980);
+    background-size: 300px;
+    height: 100vh;
+} */
+
+/* #anhhotgirl {
+    width: 300px;
+    height: 350px;
+    background-image: url(https://genk.mediacdn.vn/2020/1/7/photo-1-1578368300431366420427.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    border: 10px dashed black;
+    padding: 10px;
+    box-sizing: border-box;
+    background-origin:content-box;
+} */
+
+
+/* #anhhotgirl{
+    width: 100%;
+    height: 100vh;
+    background: url(https://genk.mediacdn.vn/2020/1/7/photo-1-1578368300431366420427.jpg) no-repeat center/contain ;
+
+}
+
+html,body{
+    margin: 0px;
+} */
+
+/* #doimau{
+    width: 500px;
+    height: 300px;
+    background:cyan;
+}
+
+#lopgia li:first-child{
+    color: red;
+}
+
+#lopgia li:last-child{
+    color: green;
+} */
+/* #doimau:active {
+    background: pink; doi mau khi giu chuot
+} */
+
+/* #box{
+    width: 300px;
+    height: 150px;
+    background:pink;
+    border: 1px solid black;
+}
+
+#box::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: white;
+
+}
+
+#box::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: white;
+}
+
+h1::selection{
+    background:orange;
+    color: red;
+} */
+
+/* h1{
+    margin-top: 300px;
+    background: rgba(235, 91, 24, 0.774);
+    color: red;
+    border: 1px solid black;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0px;
+}
+
+ol{
+    height: 2000px;
+} */
+/* 
+#chart-layout{
+    background: white;
+    margin: 36px auto 0 auto;
+    padding: 32px 0;
+    height: 320px;
+    display: flex; 
+    justify-content: space-around;
+}
+
+.chart-layout_item{
+    width: 60px;
+    color: red;
+    text-align: center;
+    height: var(--percent);
+    background-color: black;
+    align-self: flex-end;
+    animation: growth ease-in-out 2s;
+}
+
+@keyframes growth{
+    from{
+        opacity: 0;
+        height: calc(var(--percent) -50%);
+    }
+
+    to{
+        opacity: 1;
+        height: var(--percent)
+    }
+} */
+
+
+/* 
+.the-end{
+    margin: 12px auto 48px auto;
+    padding: 32px 0;
+    max-width: 760px;
+    min-height: 360px;
+    display: flex;
+}
+
+.the-end_first{
+    background-color: aqua;
+    padding: 4px 16px;
+    flex: 1;
+}
+
+.the-end_second{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.the-end_second-one{
+    padding: 4px 16px;
+    background: blueviolet;
+    flex: 1;
+}
+.the-end-second-two{
+    padding: 4px 16px;
+    background: green;
+    flex: 1;
+} */
+
+/* 
+#feature-layout {
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+@media (min-width:700px) {
+    #feature-layout{
+        flex-direction: row;
+    }
+}
+
+.feature-item {
+    padding: 12px 16px;
+    margin: 16px;
+    flex-basis: 30%;
+}
+
+
+.feature-item:nth-child(1){
+    background-color: rgb(73, 108, 175);
+}
+
+.feature-item:nth-child(2){
+    background-color: rgb(71, 7, 248);
+}
+
+.feature-item:nth-child(3){
+    background-color: rgba(192, 180, 11, 0.205);
+} */
+
+/* body{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body>div{
+    margin: auto;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn+.btn {
+    margin: 24px;
+}
+
+.btn--success{
+background: #71be34;
+}
+
+.btn--warn{
+    background: #ffb702;
+}
+
+.btn--daner{
+    background: #ff632d;
+} */

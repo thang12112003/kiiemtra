@@ -1,0 +1,382 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper-entertain {
+    width: 100%;
+    height: auto;
+}
+
+#wrapper-entertain #header-entertain {
+    width: 100%;
+    height: 640px;
+}
+
+/* Day la video */
+#header-entertain #myVideo {
+    position: absolute;
+}
+
+#header-entertain video {
+    width: 100%;
+    min-height: 100%;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+}
+
+.menu_title p {
+    padding: 10px 0px 0px 20px;
+    margin-left: 170px ;
+    margin-top: 4px;
+    color: white;
+    font-size: 33px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Day la menu */
+#header-entertain #menu {
+    width: 100%;
+    height: 60px;
+    background: #242323;
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.menu_home {
+    margin-right: 150px;
+    padding-top: 1px;
+    
+}
+
+.menu_home ul {
+    display: flex;
+}
+
+.menu_home li{
+    list-style: none;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgba(228, 9, 9, 0.986);
+    border-radius: 3px;
+    border: 1px solid white;
+
+}
+
+.menu_home li:hover {
+    background: red;
+}
+
+.menu_home li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* DAY LA THANH IM KIEM */
+
+#form {width: 200px;
+    height: 25px;
+    background: black ;
+    margin-right: 300px;
+    float: right;
+    margin-right: 0px;
+    opacity: 0.6;
+    margin-top: 60px;
+    }
+
+i {
+    padding: 0px 5px;
+        color: red;
+   }
+
+    input[type=text] {
+        width: 165px;
+         border: none;
+         height: 23px;
+          outline: none;
+        background-color: black;
+        color: white;
+        }
+    
+    #form .f1 {
+        color: white;
+    }
+
+
+
+/* Day la content */
+
+#content-video {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    margin-top: 440px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#content-video .p1 {
+    width: 100%;
+    margin: 0px;
+    text-align: center; 
+    color: rgb(8, 8, 8);
+    opacity: 0.8;
+}
+
+#content-video .p1:first-child {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+}
+
+/* Day la title tin tuc  */
+
+#title-tintuc {
+    width: 100%;
+    height: 100px;
+
+}
+
+#title-tintuc h1 {
+    font-size: 70px;
+    padding-left: 80px;
+}
+
+
+/* Day la noi dung tin tuc */
+
+#body-tintucmoi {
+    width: 100%;
+    height: 550px;
+    background: rgb(216, 212, 212);
+    display: flex;
+    justify-content: center;
+}
+
+#body-tintucmoi .t1 {
+    background: rgb(230, 227, 227);
+}
+
+#body-tintucmoi #tin_left {
+    width: 290px;
+    height: 550px;
+    border: 1px solid rgb(240, 237, 237);
+}
+
+#body-tintucmoi #tin_left img {
+    margin-left: 18px;
+}
+
+#body-tintucmoi #tin_left img:first-child {
+    margin-top: 10px;
+}
+
+#body-tintucmoi img:hover {
+    opacity: 0.8;
+}
+
+#body-tintucmoi #tin_left p {
+    margin-left: 18px;
+    font-weight: bold;
+}
+
+#body-tintucmoi p:hover {
+    color: rgb(104, 92, 92);
+    cursor: pointer;;
+}
+
+#body-tintucmoi #tin_center {
+    width: 600px;
+    border: 1px solid rgb(240, 237, 237);
+    height: 550px ;
+}
+
+#body-tintucmoi #tin_center img {
+    width: 600px;
+    margin-top: 10px;
+}
+
+#body-tintucmoi #tin_center p {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* DAY LA FOOTBALL */
+
+#footbal-tintuc {
+    width: 100%;
+    height: 1500px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    background: rgb(216, 212, 212);
+}
+
+#footbal-tintuc .border-tintuc {
+    width: 1185px;
+    border: 1px solid blue;
+    background: white;
+}
+
+#footbal-tintuc .border-tintuc h1 {
+    color: rgb(13, 13, 117);
+    text-decoration: none;
+}
+
+#footbal-tintuc .ds {
+    display: flex;
+}
+
+#footbal-tintuc #footbal-tintuc_div1 {
+    width: 550px;
+    height: 510px;
+    padding-left: 15px;
+}
+
+#footbal-tintuc #footbal-tintuc_div1 img {
+    width: 550px;
+}
+
+#footbal-tintuc #footbal-tintuc_div2 {
+    width: 370px;
+    height: 510px;
+}
+
+#footbal-tintuc #footbal-tintuc_div2 img {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#footbal-tintuc #footbal-tintuc_div2 p {
+margin-left: 18px;
+font-weight: bold;
+}
+
+#footbal-tintuc #footbal-tintuc_div3 {
+    margin-top: 10px;
+    width: 400px;
+    height: 600px;
+}
+
+#footbal-tintuc #footbal-tintuc_div3 img {
+    width: 100%;
+    height: 600px ;
+}
+
+/* day la tin noi bat */
+
+#tinnoibat {
+    width: 862px;
+    height: 718px;
+    position: absolute;
+    margin-top: -91px;
+}
+
+#tinnoibat ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#tinnoibat li {
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid rgb(168, 164, 164);
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#tinnoibat li:last-child {
+    border: none
+}
+
+#tinnoibat li:first-child  {
+    margin-top: 20px;
+}
+
+#tinnoibat h2 {
+    margin-top: 0px;
+}
+
+#tinnoibat h2:hover {
+    color:rgb(104, 92, 92);
+    cursor: pointer;
+}
+
+
+#tinnoibat img {
+    width: 300px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#tinnoibat img:hover {
+    opacity: 0.9;
+}
+
+#tinnoibat .p1 {
+    font-size: 14px;
+    color: rgb(77, 80, 80);
+}
+
+#tinnoibat-tin1 {
+    margin-top: 20px;
+}
+
+/* Day la lich thi dau bong da */
+
+#footbal-tintuc_div3 .l1-br {
+    width: 100%;
+    border-left: 1px solid rgb(78, 77, 77);
+    margin-top: 10px;
+}
+
+#footbal-tintuc_div3 h3 {
+    color: red;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+#footbal-tintuc_div3 span:first-child {
+    margin-left: 100px;
+}
+
+#footbal-tintuc_div3 .l1 {
+    border-bottom: 1px solid rgb(214, 212, 212);
+}
+
+#footbal-tintuc_div3 .l1 p {
+    padding-left: 15px;
+}
+
+#footbal-tintuc_div3 #img {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footbal-tintuc_div3 #img img {
+    width: 40px;
+    height: 40px;
+}
+
+#footbal-tintuc_div3 #img .s1 {
+    font-size: 30px;
+    background: rgb(190, 190, 187);
+    width: 50px;
+    text-align: center;
+}
+
+#footbal-tintuc_div3 #img b {
+    margin-top: 10px;
+}
+
+

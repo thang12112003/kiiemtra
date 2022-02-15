@@ -1,0 +1,755 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* day la body-title */
+
+#body-title-all {
+    background-image: linear-gradient( to left, rgb(117, 117, 114), rgb(255, 255, 98));
+}
+
+#body-title-all #body-titlee {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+ #body-titlee  .body-title1 {
+    width: 500px;
+    height: 570px;
+    margin-top: 130px;
+    margin-left: -20px;
+}
+
+#body-titlee  .body-title1 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#body-titlee  .body-title2 {
+    width: 500px;
+    height: 570px;
+    margin-top: 130px;
+    background: white
+}
+
+#body-titlee  .body-title2 h1 {
+    font-size: 60px;
+    width: 450px;
+    padding-left: 45px;
+}
+
+#body-titlee .body-title2 p {
+    font-size: 18px;
+    width: 450px;
+    padding-left: 45px;
+    line-height: 1.5;
+}
+
+#body-titlee .body-title2 a {
+    border: 1px solid rgb(233, 233, 156) ;
+    margin-left: 45px;
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    background-image: linear-gradient( to left, rgb(117, 117, 114), rgb(255, 255, 98)) ;
+    margin-top: 20px;
+} 
+
+/* day la phan body image */
+
+#body-title-all #body-image {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#body-title-all #body-image img {
+    width: 300px;
+    height: 330px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#body-title-all .img_anh {
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.img_anh img:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+
+
+
+
+#body-title-all .body-img3 p {
+    width: 410px;
+    color: #fff;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+#body-title-all .body-img3 h1 {
+    color: white;
+    font-weight: normal;
+    letter-spacing: 2px;
+    width: 400px;
+}
+
+#body-title-all .body-img3 .a  a{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
+    background: white;
+    margin-top: 20px;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+#body-title-all .body-img3 .a  a:hover {
+    background: black;
+    color: white;
+}
+/* Day la body text yoga */
+
+#body-text-yoga {
+    width: 100%; 
+    height: auto;
+}
+/* ---------------------------------------- */
+#body-text-yoga .body-text-yoga {
+    width: 350px;
+    height: 550px;
+    margin-left: 60px;
+    margin-top: -30px;
+    background: white
+}
+
+#body-text-yoga .body-text-yoga h1 {
+    font-weight: normal;
+    margin-top: 80px;
+    letter-spacing: 3px;
+}
+
+
+#body-text-yoga .body-text-yoga p {
+    line-height: 1.7;
+    word-spacing: 2px;
+    font-size: 18px;
+}
+
+/* ------------------------------------ */
+/* day la cai gi quen mat roi  */
+.body-anh-yoga {
+    width: 100%;
+    height: auto;
+    ;
+}
+
+.body-anh-yoga1 {
+    width: 550px;
+    height: 550px;
+    border: 90px solid rgb(245, 171, 35);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-right: 200px;
+    margin-top: -20px;
+    position: relative;
+
+}
+
+
+
+.body-anh-yoga .body-anh-yoga2 {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    margin-top: -700px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.body-anh-yoga .body-anh-yoga2 .anh-yoga1 {
+    width: 350px;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.body-anh-yoga .body-anh-yoga2 .anh-yoga2 {
+    width: 450px;
+    height: 100%;
+    margin-left: 30px;
+    background: white;
+}
+
+.body-anh-yoga2 .anh-yoga1 img {
+    width: 100%;
+}
+
+.body-anh-yoga2 .anh-yoga2 h1 {
+    font-size: 50px;
+    margin: 100px 0px 0px 30px;
+}
+
+.body-anh-yoga2 .anh-yoga2 p {
+    width: 350px;
+    margin: 40px 0px 0px 30px;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.body-anh-yoga2 .anh-yoga2 a {
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
+    background: rgb(235, 232, 232);
+    margin: 50px 0px 0px 30px;
+    transition: background 0.3s ease-in-out;
+}
+
+.body-anh-yoga2 .anh-yoga2 a:hover {
+    background: black;
+    color: white;
+}
+
+/* --------------------------------------------- */
+
+/* day la yoga_class_ryan */
+
+.class_yoga_ryan {
+    width: 100%;
+    height: 150px;
+}
+
+.class_yoga_ryan h1 {
+    font-size: 60px;
+    color: grey;
+    bottom: 0;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
+/* ---------------------------------------------- */
+
+
+.yoga_cb {
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+/* 
+.yoga_cb  img {
+    width: 280px;
+    height: 350px;
+    margin-left: 25px;
+} */
+
+.yoga_cb_img1 {
+    width: 300px; 
+    height: 350px;
+    background-image: url(../img/yoga/yoga_cb.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.yoga_cb_img1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.yoga_cb_img2 {
+    width: 300px; 
+    height: 350px;
+    background-image: url(../img/yoga/yoga_cb1.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yoga_cb_img2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.yoga_cb_img3 {
+    width: 300px; 
+    height: 350px;
+    background-image: url(../img/yoga/yoga_cb2.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yoga_cb_img3::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.yoga_cb_img4 {
+    width: 300px; 
+    height: 350px;
+    background-image: url(../img/yoga/yoga_cb3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yoga_cb_img4::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.yoga_cb_img1,.yoga_cb_img2, .yoga_cb_img3, .yoga_cb_img4 {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.yoga_cb_img1:hover,.yoga_cb_img2:hover, .yoga_cb_img3:hover, .yoga_cb_img4:hover {
+    opacity: 0.8;
+}
+
+.yoga_cb_img1 h1,.yoga_cb_img2 h1, .yoga_cb_img3 h1, .yoga_cb_img4 h1 {
+    margin-top: 30%;
+    color: rgb(255, 255, 255);
+}
+
+.yoga_cb i {
+    font-size: 130px;
+    color: rgb(211, 146, 26);
+}
+
+/* day la p_and_learmore */
+
+.p_and_learmore p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.p_and_learmore a {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    background:rgb(179, 179, 172);
+    color: black;
+    transition: background 0.2s ease-in-out;
+}
+
+.p_and_learmore a:hover {
+    background: black;
+    color: white;
+}
+/* ---------------------------------------------------------------------- */
+/* day la yoga_cb_end */
+
+.yoga_cb_end {
+    width: 100%;
+    height: 455px;
+    
+}
+
+.yoga_cb_end p {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(117, 118, 119);
+    margin-bottom: 50px;
+}
+
+.yoga_cb_end .yoga_cb_end_image {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.yoga_cb_end_text{
+    width: 300px;
+    height: 300px;
+    background:#645734;
+}
+
+.yoga_cb_end_image img {
+    border-radius: 50%;
+    width: 230px;
+    height: 250px;
+    margin-top: 20px;
+}
+/* ----------------------------------------- */
+/* day la yoga_about_team */
+
+#yoga_about_team {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 900px;
+    background:#645734;
+    display: flex;
+    justify-content: center;
+}
+
+.yoga_about_team1 {
+    width: 55%;
+    height: 100%;
+}
+
+.yoga_about_team1 .yoga_about_team1_border {
+    width: 70px;
+    height: 70px;
+    border: 20px solid rgb(240, 168, 36);
+    border-radius: 50%;
+    margin: 100px 0px 0px 150px ;
+}
+
+
+.yoga_about_team1 a {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    margin-left: 150px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    transition: background 0.2s ease-in-out;
+}
+
+.yoga_about_team1 a:hover {
+    background: black;
+    color: white;
+}
+
+.yoga_about_team2 {
+    width: 45%;
+    height: 100%;
+}
+
+.yoga_about_team2 img {
+    margin-top: 100px;
+}
+
+/* ----------------------------------------- */
+/* day la our_martesrs */
+
+#yoga_our_masters {
+    width: 100%;
+    height: 740px;
+    display: flex;
+}
+
+#yoga_our_masters1 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+#yoga_our_masters1 h1 {
+    font-size: 55px;
+    position: absolute;
+    bottom: 250px;
+    text-align: center;
+    width: 100%;
+    color: rgb(117, 118, 119);
+}
+
+#yoga_our_masters1 p {
+    font-size: 21px;
+    position: absolute;
+    bottom: 80px;
+    width: 400px;
+    line-height: 1.5;
+    margin-left: 180px;
+}
+
+#yoga_our_masters2  {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#yoga_our_masters2 .yoga_our_masters2_one {
+    width: 230px;
+    height: 230px;
+    border: 20px solid rgb(231, 161, 31);
+    border-radius: 50%;
+    background-image: url(../img/yoga/yoga_img_radius1.jfif);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+#yoga_our_masters2 .yoga_our_masters2_one:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+
+#yoga_our_masters2 .yoga_our_masters2_one:nth-last-child(3) {
+    background-image: url(../img/yoga/yoga_img_radius2.jfif);
+}
+
+#yoga_our_masters2 .yoga_our_masters2_one:nth-last-child(2) {
+    background-image: url(../img/yoga/yoga_img_radius3.jfif);
+}
+
+#yoga_our_masters2 .yoga_our_masters2_one:nth-last-child(1) {
+    background-image: url(../img/yoga/yoga_img_radius4.jfif);
+}
+
+.yoga_our_masters2_one:nth-last-child(odd) {
+    margin-left: 60px;
+}
+
+.yoga_bg {
+    width: 255px;
+    height: 255px;
+    border: 1px solid;
+    border-radius: 50%;
+    overflow: hidden;
+}
+/* ------------------------------------------------------------- */
+/* day la slideahow */
+.slider-item {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+}
+
+.slider-item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.slider-item-one {
+    background-image: url(../img/yoga/yoga_slideshow_two.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-item-two {
+    background-image: url(../img/yoga/yoga_slideshow.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider-item-three {
+    background-image: url(../img/yoga/yoga_slideshow_three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.owl-prev {
+    position: absolute;
+    left:0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px !important;
+    color: #fff !important;
+    ;
+}
+
+.owl-next {
+    position: absolute;
+    right:0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px !important;
+    color: #fff !important;
+    ;
+}
+
+.owl-prev, .owl-next:hover {
+    background: none !important;
+}
+
+.owl-dots {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly !important;
+    bottom: 0px;
+    right: 47%;
+    transform: translateY(-50%);
+}
+
+.owl-dots button {
+    margin-left: 10px !important;
+}
+
+.owl-dot span {
+    width: 15px !important;
+    height: 15px !important;
+     margin: 0 !important;
+    background-color: transparent !important; 
+}
+
+.owl-dot {
+    width: 23px;
+    height: 23px;
+    border: 2px solid white !important;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.owl-dot.active span {
+    background-color: white !important;
+}
+/* ------------------ */
+/* slide content */
+
+
+
+
+.slider-item-text h1 {
+    text-align: center;
+    position: absolute;
+    right: 44%;
+    font-size: 55px;
+    letter-spacing: 10px;
+    color: #fff;
+}
+/* -------------------------------------------- */
+/* day la contact_yoga */
+
+#yoga_contact {
+    width: 100%;
+    margin-top: -10px;
+    height: 880px;
+    display: flex;
+}
+
+#yoga_contact .yoga_contact_nen1 {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    background-color: #645734;
+}
+
+#yoga_contact .yoga_contact_nen1 img {
+    position: absolute;
+    margin: 65px 0px 0px 100px;
+}
+
+#yoga_contact .yoga_contact_nen2 {
+    width: 70%;
+    height: 100%;
+    position: relative;
+
+}
+
+ .yoga_contact_nen2 .trong_nen2 {
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    right: 150px;
+}
+
+.yoga_contact_nen2 .trong_nen2 h1 {
+    font-size: 50px;
+    margin-top: 250px;
+}
+
+.yoga_contact_nen2 .trong_nen2 i {
+    font-size: 25px;
+    color: black;
+}
+
+.items i {
+    font-size: 35px !important;
+}
+
+.items i:not(:first-child) {
+    margin-left: 15px;
+}
+
+#footer {
+    margin-top: 0 !important;
+}

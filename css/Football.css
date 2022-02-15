@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#wraper_fb {
+    width: 100%;
+    height: auto;
+}
+
+
+.home_text {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.home_text #form {
+    position: absolute;
+    right: 0px;
+}
+
+.home_text #form i {
+    padding: 0px 5px;
+    color: red
+}
+
+.home_text #form input[type=text]{
+     
+        width: 165px;
+         border: none;
+         height: 23px;
+          outline: none;
+        background-color: black;
+        color: white;
+        
+}
+
+.home_text img:nth-last-child(2) {
+    margin-top: 60px;
+    margin-left: 130px;
+    height: 190px;
+    width: 200px;
+}
+
+.home_text img:nth-last-child(1) {
+    width: 890px;
+    margin: 0;
+}
+
+/* ------------------------------------- */
+/* day la text_home */
+
+.text_home {
+    width: 740px;
+    height: 340px;
+    margin: -140px 0px 0px 100px;
+    position: absolute;
+    background: rgb(212, 14, 14);
+}
+
+.text_home h1 {
+    color: white;
+    font-size: 48px;
+    padding: 25px 20px 0px 25px ;
+    font-weight: 500;
+}
+
+.text_home a {
+    color: black;
+}
+
+.text_home a:nth-last-child(1) {
+    color: red;
+    border: 1px solid;
+    position: absolute;
+    margin-top: 30px;
+    width: 130px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background: white;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.text_home a:nth-last-child(1):hover {
+    background: red;
+    color: white;
+}
+
+.text_home .text_img p {
+    font-size: 18px;
+    line-height: 45px;
+    padding-right: 15px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* ----------------------------- */
+/* day la body_football */
+
+#body_football {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+}
+
+#body_football .body_football_text {
+    width: 65%;
+    height: auto;
+
+}
+
+#body_football .body_football_text p {
+    padding: 40px 100px 0px 120px;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+#body_football .body_football_text p:nth-last-child(1){
+    padding-top: 0;
+}
+
+#body_football .body_football_text h2 {
+    margin-top: 250px;
+    padding-left: 120px;
+    font-weight: normal;
+    font-size: 37px;
+}
+
+.body_football_text a {
+    color: red;
+    margin: 0 auto;
+    margin-left: 570px;
+
+}
+
+.body_football_text i {
+    padding-left: 10px;
+}
+
+#body_football .body_football_img {
+    width: 35%;
+    height: 100%;
+}
+
+#body_football .body_football_img img {
+    width: 100%;
+    margin-top: 110px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+#body_football .body_football_img .text {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -40px;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 30px;
+    transition: margin-top 0.5s ease-in;
+    opacity: 0;
+    color: red;
+}
+
+#body_football .body_football_img:hover .text {
+    margin-top: -280px;
+    opacity: 1;
+}
+
+
+#body_football .body_football_img .aa{
+    position: absolute;
+    padding-left: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    margin-top: -5px;
+    font-size: 30px;
+    transition: margin-top 1.5s ease-in-out;
+    opacity: 0;
+    background-color: rgb(110, 103, 103)
+}
+
+#body_football .body_football_img .aa:hover{
+    background-color: red;
+    transition: 0.3s ease-in-out;
+}
+
+#body_football .body_football_img:hover .aa{
+    margin-top: -54px;
+    opacity: 1;
+}
+
+.body_football_img .aa a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.body_football_img .aa i {
+    padding-left: 20px;
+}
+
+
+/* body_football2 */
+
+.body_football2 {
+    width: 100%;
+    height: 1000px;
+    border: 1px solid;
+    display: flex;
+    position: relative;
+}
+
+.body_football2 .body_football2_one {
+    width: 50%;
+    height: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .body_football2_one p {
+    text-align: center;
+}
+
+.body_football2_one .text1 {
+    margin-top: -37px;
+    letter-spacing: 2px;
+    width: 100%;
+    font-size: 30px;
+    transition: margin-top 0.5s ease-in;
+    opacity: 0;
+    color: red;
+}
+
+.body_football2 .body_football2_one:hover .text1 {
+    margin-top: -310px;
+    opacity: 1;
+}
+
+.body_football2 .body_football2_one img {
+    width: 80%;
+    height: 650px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border: 1px solid;
+}
+
+.body_football2 .body_football2_two {
+    width: 50%;
+    height: 100%;
+    border: 1px solid blue;
+}
